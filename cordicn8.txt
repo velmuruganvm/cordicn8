@@ -1553,7 +1553,7 @@ nmux31 mn(32'b00000000000000000000000000000000,pq,k4,p);
 endmodule
 
 //===================================================================================================================
-module report(a,b,c,clk,rst,vr,o1,o2,o3,lcont);
+module cordicn8(a,b,c,clk,rst,vr,o1,o2,o3,lcont);
 //module report(clk,rst,vr,o1,o2,o3,lcont,x1,y1,zz1,x2,y2,zz21,x3,y3,zz31,x4,y4,zz41,x5,y5,zz51,x6,y6,zz61,x7,y7,zz71);
 input[31:0]a,b,c;
 input vr;
